@@ -263,3 +263,55 @@ body {
     }
 }
 /* end of header */
+
+/* about me */
+.about-me {
+    margin-left: 8rem;
+    display: flex;
+    /* background-color: #ddd; */
+    background-color:  #303030;
+    background-image: url(../img/portfolio-bg.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:  #fff;
+}
+
+.about-me-content {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.about-me-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* color: #b85d1c; */
+    color: #16e0bd;
+}
+
+.sub-heading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    /* color: #b85d1c; */
+    color: #16e0bd;
+    text-transform: uppercase;
+}
+
+.about-me-paragraph {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    /* text-align: center; */
+    margin-bottom: 5rem;
+}
+
+/* end of about me */
