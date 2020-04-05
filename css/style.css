@@ -440,3 +440,48 @@ body {
     color: #deaa86;
 }
 /* end of projects */
+
+/* footer */
+.footer {
+    margin-left: 8rem;
+}
+
+.main-part {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #FB6542; */
+    background-color:  #303030;
+    padding: 1rem;
+}
+
+.creator-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #111; */
+    padding: 0 4rem;
+}
+
+.copyright-text {
+    font-size: 1.3rem;
+    /* color: #15141B; */
+    color: #16e0bd;
+}
+
+.text-right {
+    font-size: 1.4rem;
+    /* color: #15141B; */
+    color: #16e0bd;
+}
+
+.text-right i {
+    font-size: 2rem;
+    margin: .5rem;
+    color: rgb(221, 56, 27);
+} 
+
+.text-right span {
+    /* color: gold; */
+    color: #16e0bd;
+}
+/* end of footer */
