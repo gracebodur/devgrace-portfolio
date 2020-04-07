@@ -485,3 +485,163 @@ body {
     color: #16e0bd;
 }
 /* end of footer */
+
+@media(max-width: 1400px) {
+    .projects-cards-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card:first-child {
+        margin-bottom: 3rem;
+    }
+    .main-part {
+        flex-direction: column;
+    }
+
+    .footer-list {
+        display: flex;
+    }
+
+    .footer-list-item {
+        margin-right: 3rem;
+    }
+}
+
+@media(max-width: 1200px) {
+    .about-me {
+        flex-direction: column;
+        padding-bottom: 20rem;
+    }
+
+    .about-me-content {
+        margin-bottom: 13rem;
+    }
+
+}
+
+@media(max-width: 900px) {
+    .banner {
+        text-align: center;
+    }
+
+    .banner-heading {
+        font-size: 4.7rem;
+    }
+
+    .banner-paragraph {
+        font-size: 2.6rem;
+    }
+
+    .banner-button {
+        width: 16rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 750px) {
+    .project-card {
+        flex-direction: column;
+        width: 20rem;
+    }
+
+    .project-image {
+        margin-left: 0; 
+    }
+    .footer-list {
+        display: block;
+    }
+
+    .creator-part {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .copyright-text {
+        order: 1;
+    }
+}
+
+@media(max-width: 500px) {
+    .navigation {
+        width: 28rem;
+    }
+
+    .navigation-heading {
+        font-size: 2rem;
+        margin: auto 0;
+    }
+
+    .banner {
+        height: 100%;
+        margin-top: -10rem;
+    }
+
+    .banner-heading {
+        font-size: 3rem;
+    }
+
+    .banner-paragraph {
+        font-size: 2rem;
+    }
+
+    .about-me {
+        padding-bottom: 15rem;
+    }
+
+    .about-me-heading {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .sub-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-me-content {
+        padding: 5rem;
+    }
+
+    .image {
+        width: 13rem;
+    }
+
+    .common-heading {
+        font-size: 2rem;
+    }
+
+    .small-underline {
+        width: 5rem;
+    }
+
+    .big-underline {
+        width: 12rem;
+    }
+
+    .project-card-heading {
+        font-size: 1.5rem;
+    }
+
+
+    .project-card-btn {
+        width: 12rem;
+        padding: 1rem .5rem;
+        font-size: 1rem;
+    }
+
+    .customers-paragraph {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+
+    .main-part {
+        padding: 2rem;
+    }
+
+    .footer-input {
+        width: 12rem;
+    }
+
+}
+
