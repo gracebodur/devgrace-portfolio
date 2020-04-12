@@ -26,6 +26,11 @@ body {
     z-index: 10;
 }
 
+.menu-icon {
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
 .line {
     height: .2rem;
     width: 2.5rem;
@@ -78,7 +83,7 @@ body {
     left: -32rem;
     width: 40rem;
     height: 100%;
-    background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, .8)) ,url(../img/dev-grace-002.jpg) center no-repeat;
+    background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, .8)) ,url(https://image.shutterstock.com/image-vector/male-default-placeholder-avatar-profile-260nw-387516193.jpg) center no-repeat;
     /* background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, .8)) ,url(../img/nav-bg.jpeg) center no-repeat; */
     background-size: cover;
     display: flex;
@@ -398,27 +403,50 @@ body {
     color: #777;
 }
 
-.project-card-btn {
+a.project-card-btn {
+    display: inline-block;
+    padding: 1.5rem 1rem;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid #0baa8f;
+    border-radius: 2em;
+    width: 15rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color:#FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.project-card-btn:hover{
+    border-color: rgba(255,255,255,1);
+    color: #303030;
+    background-color:  #16e0bd;
+}
+
+
+/* .project-card-btn {
     width: 15rem;
     padding: 1.5rem 1rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
-    /* color: #b85d1c; */
+    color: #b85d1c;
     color: #16e0bd;
     background-color: transparent;
     border: .1rem solid #0baa8f;;
     border-radius: 10rem;
     outline: none;
     cursor: pointer;
-}
+} */
 
-.project-card-btn:hover {
+/* .project-card-btn:hover {
     color: #303030;
-    /* color: #ddd; */
-    /* background-color: #b85d1c; */
+    color: #ddd;
+    background-color: #b85d1c;
     background-color:  #16e0bd;
-}
+} */
 
 .social-icons-tech {
     list-style: none;
@@ -485,6 +513,14 @@ body {
     color: #16e0bd;
 }
 /* end of footer */
+
+@media all and (max-width:30em){
+
+     a.project-card-btn {
+        display: block;
+        margin: 0.2em auto;
+    }
+}
 
 @media(max-width: 1400px) {
     .projects-cards-wrapper {
@@ -624,11 +660,11 @@ body {
     }
 
 
-    .project-card-btn {
+    /* .project-card-btn {
         width: 12rem;
         padding: 1rem .5rem;
         font-size: 1rem;
-    }
+    } */
 
     .customers-paragraph {
         font-size: 1.4rem;
