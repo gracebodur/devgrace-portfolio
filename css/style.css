@@ -17,7 +17,13 @@ body {
 .sidebar {
     width: 8rem;
     height: 100%;
-    background-color:  #303030;
+    background-color: rgb(82, 75, 52);
+    background-blend-mode: multiply;
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -80,8 +86,13 @@ body {
     left: -32rem;
     width: 40rem;
     height: 100%;
-    background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, .8)) ,url(../img/side.png) center no-repeat;
+    background-color: rgb(82, 75, 52);
+    background-blend-mode: multiply;
+    background-image: url(../img/hero.png);
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -205,7 +216,6 @@ body {
 }
 
 .banner {
-  
     height: 65rem;
     display: flex;
     flex-direction: column;
@@ -289,17 +299,12 @@ a {
 .about-me {
     margin-left: 8rem;
     display: flex;
-    /* background-color: #ddd; */
-
     background-image: url(../img/hero.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     background-color: rgb(82, 75, 52);
-    /* background-image: url(../img/portfolio-bg.jpg); */
-    background-size: cover;
     background-blend-mode: multiply;
     color:  #fff;
 }
@@ -356,21 +361,10 @@ a {
     border: .2rem solid #16e0bd;
 }
 
-/* .image-1 {
-    transform: translate(-20%, -90%);
-}
-
-.image-2 {
-    transform: translate(-100%, -70%);
-} */
-
 .image-3 {
     transform: translate(-55%, -50%);
 }
 
-/* .image-4 {
-    transform: translate(-30%, -30%);
-} */
 /* end of about me */
 
 /* project header */
@@ -380,10 +374,8 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     padding: 5rem;
     text-align: center;
-    /* color: #16e0bd; */
 }
 
 .project-heading {
@@ -411,7 +403,6 @@ a {
 /* projects */
 .projects {
     margin-left: 8rem;
-
     background-image: url(../img/hero.png);
     background-size: cover;
     background-position: center center;
@@ -428,7 +419,17 @@ a {
 .project-card {
     width: 60rem;
     margin: 5rem;
-    background-color: #303030;
+    /* background-color: #303030; */
+
+    background-color: rgb(80, 73, 51);
+    background-blend-mode: multiply;
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .4);
     border-radius: .5rem;
     border: .2rem solid #16e0bd;
@@ -436,16 +437,17 @@ a {
 }
 
 .project-img {
+    width: 100%;
+    filter: brightness(100%);
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
-        width: 100%;
 }
 
 .project-img:hover, 
 .project-card:focus .project-img {
     transform: scale(1.1);
-    opacity: .5;
+    filter: brightness(100%);
 }
 
 .project-card-content {
@@ -456,12 +458,12 @@ a {
 .project-card-heading {
     margin: 0;
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .project-card-paragraph {
     font-size: 1.5rem;
-    color: #777;
+    color:  #ddd;
 }
 
 a.project-card-btn {
@@ -484,6 +486,7 @@ a.project-card-btn {
 
 a.project-card-btn:hover {
     color: #303030;
+    opacity: 1;
     font-weight: 800;
     background-color:  #16e0bd;
 }
@@ -518,7 +521,16 @@ a.project-card-btn:hover {
     display: flex;
     justify-content: space-between;
     /* background-color: #FB6542; */
-    background-color:  #303030;
+    /* background-color:  #303030; */
+
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(82, 75, 52);
+    background-blend-mode: multiply;
+
     padding: 1rem;
 }
 
@@ -589,6 +601,11 @@ a.project-card-btn:hover {
 }
 
 @media(max-width: 900px) {
+    .image-3 {
+        width: 20rem;
+        transform: translate(-55%, -70%);
+    }
+
     .banner {
         text-align: center;
     }
