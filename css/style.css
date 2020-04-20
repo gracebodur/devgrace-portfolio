@@ -258,26 +258,12 @@ body {
     transform: skewX(-10deg);
 }
 
+
 a {
     outline: none;
     transition: all .15s ease-in-out;
 }
 
-/* .banner-button {
-    width: 21rem;
-    padding: 1.2rem 2rem;
-    font-size: 2rem;
-    color: #303030;
-    letter-spacing: 1px;
-    border: 0.16em solid #16e0bd;
-    border-radius: 0.12em;
-    outline: none;
-    font-weight: 400;
-    cursor: pointer;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: transform 200ms ease-in-out;
-} */
 
 .banner-button:hover {
     color: #303030;
@@ -332,7 +318,6 @@ a {
     font-size: 2.5rem;
     font-weight: 300;
     letter-spacing: .1rem;
-    /* color: #b85d1c; */
     color: #16e0bd;
     text-transform: uppercase;
 }
@@ -342,7 +327,6 @@ a {
     font-style: italic;
     font-weight: 300;
     letter-spacing: .2rem;
-    /* text-align: center; */
     margin-bottom: 5rem;
 }
 
@@ -379,24 +363,27 @@ a {
 }
 
 .project-heading {
-    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 7rem;
     font-weight: 400;
-    letter-spacing: .2rem;
-    text-transform: uppercase;
+    margin-bottom: 0;
+    animation: anim 2s;
+}
+
+.small-underline, 
+.big-underline {
+    background-color:#303030;
+    height: .1rem;
 }
 
 .small-underline {
     width: 9rem;
-    height: .1rem;
     margin: 0 auto 1rem auto;
-    background-color:#16e0bd;
 }
 
 .big-underline {
     width: 20rem;
-    height: .1rem;
     margin: auto;
-    background-color: #16e0bd;
 }
 /* end of project header */
 
@@ -419,8 +406,6 @@ a {
 .project-card {
     width: 60rem;
     margin: 5rem;
-    /* background-color: #303030; */
-
     background-color: rgb(80, 73, 51);
     background-blend-mode: multiply;
     background-image: url(../img/hero.png);
@@ -428,8 +413,6 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .4);
     border-radius: .5rem;
     border: .2rem solid #16e0bd;
@@ -508,7 +491,7 @@ a.project-card-btn:hover {
 }
 
 .tech-link:hover {
-    color: #deaa86;
+    color:  #16e0bd;
 }
 /* end of projects */
 
@@ -520,9 +503,6 @@ a.project-card-btn:hover {
 .main-part {
     display: flex;
     justify-content: space-between;
-    /* background-color: #FB6542; */
-    /* background-color:  #303030; */
-
     background-image: url(../img/hero.png);
     background-size: cover;
     background-position: center center;
@@ -530,7 +510,6 @@ a.project-card-btn:hover {
     background-attachment: fixed;
     background-color: rgb(82, 75, 52);
     background-blend-mode: multiply;
-
     padding: 1rem;
 }
 
@@ -538,19 +517,16 @@ a.project-card-btn:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #111; */
     padding: 0 4rem;
 }
 
 .copyright-text {
     font-size: 1.3rem;
-    /* color: #15141B; */
     color: #16e0bd;
 }
 
 .text-right {
     font-size: 1.4rem;
-    /* color: #15141B; */
     color: #16e0bd;
 }
 
@@ -561,182 +537,7 @@ a.project-card-btn:hover {
 } 
 
 .text-right span {
-    /* color: gold; */
     color: #16e0bd;
 }
 /* end of footer */
-
-@media(max-width: 1400px) {
-    .projects-cards-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .project-card:first-child {
-        margin-bottom: 3rem;
-    }
-    .main-part {
-        flex-direction: column;
-    }
-
-    .footer-list {
-        display: flex;
-    }
-
-    .footer-list-item {
-        margin-right: 3rem;
-    }
-}
-
-@media(max-width: 1200px) {
-    .about-me {
-        flex-direction: column;
-        padding-bottom: 20rem;
-    }
-
-    .about-me-content {
-        margin-bottom: 13rem;
-    }
-
-}
-
-@media(max-width: 900px) {
-    .image-3 {
-        width: 20rem;
-        transform: translate(-55%, -70%);
-    }
-
-    .banner {
-        text-align: center;
-    }
-
-    .banner-heading {
-        font-size: 4.7rem;
-    }
-
-    .banner-paragraph {
-        font-size: 2.6rem;
-    }
-
-    .banner-button {
-        width: 16rem;
-        font-size: 1.5rem;
-    }
-}
-
-@media(max-width: 750px) {
-    .project-card {
-        flex-direction: column;
-        width: 20rem;
-    }
-
-    .project-card-heading {
-        font-size: 1.5rem;
-    }
-
-    .project-image {
-        margin-left: 0; 
-    }
-
-    .project-card-btn {
-        width: 12rem;
-        padding: 1rem .5rem;
-        font-size: 0.5rem;
-    }
-
-    .footer-list {
-        display: block;
-    }
-
-    .creator-part {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .copyright-text {
-        order: 1;
-    }
-}
-
-@media(max-width: 500px) {
-    .navigation {
-        width: 28rem;
-    }
-
-    .navigation-heading {
-        font-size: 2rem;
-        margin: auto 0;
-    }
-
-    .banner {
-        height: 100%;
-        margin-top: -10rem;
-    }
-
-    .banner-heading {
-        font-size: 3rem;
-    }
-
-    .banner-paragraph {
-        font-size: 2rem;
-    }
-
-    .about-me {
-        padding-bottom: 15rem;
-    }
-
-    .about-me-heading {
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .sub-heading {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .about-me-content {
-        padding: 5rem;
-    }
-
-    .image {
-        width: 13rem;
-    }
-
-    .common-heading {
-        font-size: 2rem;
-    }
-
-    .small-underline {
-        width: 5rem;
-    }
-
-    .big-underline {
-        width: 12rem;
-    }
-
-    .project-card-heading {
-        font-size: 1.5rem;
-    }
-
-    .project-card-btn {
-        width: 12rem;
-        padding: 1rem .5rem;
-        font-size: 1rem;
-    }
-
-    .customers-paragraph {
-        font-size: 1.4rem;
-        width: 80%;
-    }
-
-    .main-part {
-        padding: 2rem;
-    }
-
-    .footer-input {
-        width: 12rem;
-    }
-
-}
 
