@@ -202,18 +202,6 @@ body {
     background-attachment: fixed;
 }
 
-.brand {
-    display: flex;
-    cursor: pointer;
-}
-
-.brand-heading {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.7rem;
-    font-weight: 600;
-    color: #524B34;
-    letter-spacing: .2rem;
-}
 
 .banner {
     height: 65rem;
@@ -290,7 +278,7 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgb(82, 75, 52);
+    background-color: rgb(24, 22, 14);
     background-blend-mode: multiply;
     color:  #fff;
 }
@@ -342,7 +330,7 @@ a {
     left: 50%;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .4);
     border-radius: .4rem;
-    border: .2rem solid #16e0bd;
+    border: .2rem;
 }
 
 .image-3 {
@@ -372,7 +360,7 @@ a {
 
 .small-underline, 
 .big-underline {
-    background-color:#303030;
+    background-color:#16e0bd;
     height: .1rem;
 }
 
@@ -406,7 +394,7 @@ a {
 .project-card {
     width: 60rem;
     margin: 5rem;
-    background-color: rgb(80, 73, 51);
+    background-color: rgb(24, 22, 14);
     background-blend-mode: multiply;
     background-image: url(../img/hero.png);
     background-size: cover;
@@ -415,7 +403,7 @@ a {
     background-attachment: fixed;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .4);
     border-radius: .5rem;
-    border: .2rem solid #16e0bd;
+    border: .2rem;
     overflow: hidden;
 }
 
