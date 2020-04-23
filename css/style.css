@@ -301,7 +301,7 @@ a {
 }
 
 .sub-heading {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: .1rem;
     color: #16e0bd;
@@ -482,17 +482,13 @@ a.project-card-btn:hover {
 .tech {
     font-size: 2.5rem;
     height: 5rem;
-    color: #777;
+    color: #16e0bd;
     transition: color .3s;
     text-decoration: none;
     list-style: none;
     padding: 5px;
+    cursor: none;
 }
-
-.tech:hover {
-    color: #16e0bd;
-}
-
 /* end of projects */
 
 /* footer */
