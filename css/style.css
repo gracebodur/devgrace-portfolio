@@ -487,7 +487,7 @@ a.project-card-btn:hover {
     text-decoration: none;
     list-style: none;
     padding: 5px;
-    cursor: none;
+    cursor: default;
 }
 /* end of projects */
 
