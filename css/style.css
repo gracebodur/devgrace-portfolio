@@ -202,7 +202,6 @@ body {
     background-attachment: fixed;
 }
 
-
 .banner {
     height: 65rem;
     display: flex;
@@ -210,7 +209,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 
 .banner-heading {
     font-family: 'Josefin Sans', sans-serif;
@@ -461,26 +459,40 @@ a.project-card-btn:hover {
     font-weight: 800;
     background-color:  #16e0bd;
 }
- 
-.social-icons-tech {
-    list-style: none;
+
+.tech-icons {
     padding: 0;
-    height: 5rem;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: flex-end;
 }
 
-.tech-link {
-    font-size: 4rem;
+.nowrap  { 
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.tech {
+    font-size: 2.5rem;
+    height: 5rem;
     color: #777;
     transition: color .3s;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
 }
 
-.tech-link:hover {
-    color:  #16e0bd;
+.tech:hover {
+    color: #16e0bd;
 }
+
 /* end of projects */
 
 /* footer */
