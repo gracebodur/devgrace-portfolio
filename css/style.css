@@ -227,7 +227,6 @@ body {
 
 
 .banner-button {
-    /* background-color: transparent; */
     background-repeat: no-repeat;
     background-color: #1CBDC5;
     border: 2px solid #1CBDC5;
@@ -438,7 +437,6 @@ a {
 }
 
 a.project-card-btn {
-    display:inline-block;
     padding: 0.35em 1.2em;
     border: 0.16em solid #0baa8f;
     margin: 0 0.3em 0.3em 0;
@@ -460,6 +458,18 @@ a.project-card-btn:hover {
     opacity: 1;
     font-weight: 800;
     background-color:  #16e0bd;
+} 
+
+.proj-icons {
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .tech-icons {

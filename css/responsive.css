@@ -191,16 +191,34 @@
 
 }
 
-@media only screen 
+ @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
-    .banner-heading {
-        margin-bottom: 0;
-        margin-top: -130px;
-     }
-}
+    .banner {
+        height: 100%;
+        width: 100%;
+    }
+
+    .projects-cards-wrapper {
+        width: 100%;
+    }
+
+    .main-part {
+        width: 90%;
+    }
+
+    .header,
+    .about-me,
+    .project-header,
+    .projects,
+    .footer {
+        width: 100%;
+    }
+
+} 
+
 
 @media only screen 
   and (min-device-width: 320px) 
@@ -208,46 +226,45 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .navbar {
-      padding-top: 0;
+      padding-top: 1px;
     }
 
-     .banner {
-        height: 100vh;
-        margin-top: 0;
-        width: 125vw;
+    .sidebar {
+        width: 9rem;
+    }
+
+    .banner {
+        width: 110%;
     }
 
     .header {
-        width: 125vw;
-        height: 100vh;
-    }
-
-    .about-me {
-        width: 125vw;
+        height: 150rem;
+        width: 110rem;
     }
 
     .about-me-paragraph {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
+    }
+
+    
+    .projects {
+        width: 110rem;
+    }
+    
+    .project-card {
+        width: 60rem;
     }
 
     .image {
         width: 15rem;
     }
-
-    .project-header {
-        width: 100vw;
+    
+    .about-me,
+    .projects-cards-wrapper,
+    .main-part,
+    footer {
+        width: 110rem;
     }
-
-    .projects-cards-wrapper {
-        margin-top: -10%;
-    }
-
-    .project-card {
-        width: 100vw;
-   }
-
-    .main-part {
-        width: 125vw;
 }
 
 
@@ -260,9 +277,21 @@
         height: 100%;
     }
 
-    .projects-cards-wrapper {
-        margin-top: -10%;
+    .about-me-content {
+       padding: 50px;
     }
-}
+
+    .about-me-paragraph {
+        font-size: 15px;
+    }
+
+    .sub-heading {
+        font-size: 12px;
+    }
+
+    a.project-card-btn {
+        width: 5rem;
+        font-size: 1rem;
+    }
 }
 
