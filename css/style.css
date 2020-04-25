@@ -66,12 +66,12 @@ body {
 
 .social-link {
     font-size: 2rem;
-    color: #777;
+    color: #16e0bd;
     transition: color .3s;
 }
 
 .social-link:hover {
-    color: #16e0bd;
+    color: #fff;
 }
 
 .year {
