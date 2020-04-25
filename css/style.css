@@ -248,7 +248,6 @@ body {
 
 a {
     outline: none;
-    color: transparent;
     transition: all .15s ease-in-out;
 }
 
@@ -444,9 +443,10 @@ a.project-card-btn {
     text-decoration: none;
     text-transform: uppercase;
     text-align:center; 
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.2rem;
-    color:#FFFFFF;
+    background-color:  #16e0bd;
+    color:#303030;
     letter-spacing: 1px;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -457,7 +457,8 @@ a.project-card-btn:hover {
     color: #303030;
     opacity: 1;
     font-weight: 800;
-    background-color:  #16e0bd;
+    background-color:  #fff;
+    border: 0.16em solid #fff;
 } 
 
 .proj-icons {
