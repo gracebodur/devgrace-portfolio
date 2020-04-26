@@ -190,7 +190,8 @@
 
 @media(max-width: 375px) {
     .sidebar {
-        height: 115%;
+        height: 110%;
+        width: 10em;
     }
 
     .hamburger {
@@ -201,9 +202,14 @@
         font-size: 3rem;
     }
 
+    .header {
+        width: 100%;
+    }
+
     .banner {
         height: 100%;
         margin-top: -10rem;
+        width: 100%;
     }
 
     .banner-heading {
@@ -215,71 +221,31 @@
     }
 
     .about-me {
-        padding-bottom: 15rem;
+        width: 100%;
     }
 
-    .about-me-heading {
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .sub-heading {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .about-me-content {
-        padding: 3rem;
-    }
-
+   
     .about-me-paragraph {
         font-size: 1.4rem;
         width: 80%;
     }
 
-    .image {
-        width: 13rem;
-    }
-
-    .project-heading {
-        font-size: 3rem;
-    }
-
-    .small-underline {
-        width: 5rem;
-    }
-
-    .big-underline {
-        width: 12rem;
-    }
+   .projects {
+    width: 100%;
+   }
 
     .project-card {
-        width: 28rem;
-        margin: 10px;
-    }
-
-    .project-card-heading {
-        font-size: 1.5rem;
+        width: 30em;
+        margin: 5em;
     }
 
     .project-card-btn {
-        width: 12rem;
-        padding: 1rem .5rem;
-        font-size: 1rem;
+        width: 5rem;
     }
 
     .main-part {
-        padding: 2rem;
+        width: 110%;
     }
-
-    .footer-input {
-        width: 12rem;
-    }
-
-    .projects-cards-wrapper {
-        width: 4rem;
-    }
-
 }
 
 @media only screen 
