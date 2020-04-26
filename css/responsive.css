@@ -102,10 +102,6 @@
 
 
 @media(max-width: 500px) {
-    .navigation {
-        width: 28rem;
-    }
-
     .sidebar {
         height: 100%;
     }
@@ -191,80 +187,224 @@
 
 }
 
- /* @media only screen 
+
+@media(max-width: 375px) {
+    .sidebar {
+        height: 115%;
+    }
+
+    .hamburger {
+        top: 10em;
+    }
+
+    .navigation-heading {
+        font-size: 3rem;
+    }
+
+    .banner {
+        height: 100%;
+        margin-top: -10rem;
+    }
+
+    .banner-heading {
+        font-size: 3rem;
+    }
+
+    .banner-paragraph {
+        font-size: 2rem;
+    }
+
+    .about-me {
+        padding-bottom: 15rem;
+    }
+
+    .about-me-heading {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .sub-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-me-content {
+        padding: 3rem;
+    }
+
+    .about-me-paragraph {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+
+    .image {
+        width: 13rem;
+    }
+
+    .project-heading {
+        font-size: 3rem;
+    }
+
+    .small-underline {
+        width: 5rem;
+    }
+
+    .big-underline {
+        width: 12rem;
+    }
+
+    .project-card {
+        width: 28rem;
+        margin: 10px;
+    }
+
+    .project-card-heading {
+        font-size: 1.5rem;
+    }
+
+    .project-card-btn {
+        width: 12rem;
+        padding: 1rem .5rem;
+        font-size: 1rem;
+    }
+
+    .main-part {
+        padding: 2rem;
+    }
+
+    .footer-input {
+        width: 12rem;
+    }
+
+    .projects-cards-wrapper {
+        width: 4rem;
+    }
+
+}
+
+@media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
+  and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
     .banner {
         height: 100%;
-        width: 100%;
-    }
-
-    .projects-cards-wrapper {
-        width: 100%;
+        width: 110%;
     }
 
     .main-part {
-        width: 90%;
+        width: 100%;
     }
 
+    .project-header {
+        width: 80%;
+    }
     .header,
     .about-me,
-    .project-header,
     .projects,
+    .projects-cards-wrapper,
     .footer {
-        width: 100%;
+        width: 110%;
     }
 
 } 
 
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .navbar {
-      padding-top: 1px;
-    }
-
+@media(max-width: 320px) {
     .sidebar {
-        width: 9rem;
+        height: 115%;
+        width: 20%;
     }
+
+    .hamburger {
+        top: 10em;
+    }
+
+    .navigation-heading {
+        font-size: 3rem;
+    }
+
+    .nav-toggle, 
+    .social-icons-list,
+    .year {
+        margin-left: 2rem;
+    }
+
 
     .banner {
-        width: 110%;
+        height: 100%;
+        width: 100%;
+        margin-top: -10rem;
     }
 
     .header {
-        height: 150rem;
-        width: 110rem;
+        width: 100%;
     }
 
-    .about-me-paragraph {
+    .banner-heading {
+        font-size: 3rem;
+    }
+
+    .banner-paragraph {
         font-size: 1.75rem;
     }
 
-    
-    .projects {
-        width: 110rem;
-    }
-    
-    .project-card {
-        width: 60rem;
+    .about-me {
+        padding-bottom: 15rem;
+        width: 100%;
     }
 
-    .image {
-        width: 15rem;
+    .about-me-heading {
+        font-size: 2.5rem;
+        text-align: center;
     }
+
+    .sub-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-me-content {
+        padding: 3rem;
+    }
+
+    .about-me-paragraph {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+
+
+    .project-heading {
+        font-size: 3rem;
+    }
+
+
+    .projects {
+        width: 100%;
+    }
+
+    .project-card {
+        width: 29rem;
+        margin: 8px;
+    }
+
+    .project-card-heading {
+        font-size: 2rem;
+    }
+
     
-    .about-me,
-    .projects-cards-wrapper,
-    .main-part,
-    footer {
-        width: 110rem;
+    .main-part {
+        padding: 2rem;
+        width: 115%;
     }
+
+    .footer-input {
+        width: 12rem;
+    }
+
+    .projects-cards-wrapper {
+        width: 4rem;
+    }
+
 }
 
 
@@ -276,6 +416,15 @@
     .banner {
         height: 100%;
     }
+
+    .banner-heading {
+        font-size: 4rem;
+    }
+
+    .banner-paragraph {
+        font-size: 1.75rem;
+    }
+
 
     .about-me-content {
        padding: 50px;
@@ -294,4 +443,6 @@
         font-size: 1rem;
     }
 }
- */
+
+
+
