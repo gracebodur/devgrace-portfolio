@@ -309,6 +309,59 @@
 
 } 
 
+@media(max-width: 360px) {
+    .sidebar {
+        height: 115%;
+        width: 8em;
+    }
+
+    .hamburger {
+        top: 8em;
+    }
+
+    .year {
+        font-size: 1em;
+
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .banner {
+        height: 100%;
+        width: 100%;
+        margin-top: -10rem;
+    }
+
+    .about-me {
+        padding-bottom: 15rem;
+    }
+    
+    .main-part {
+        width: 115%;
+        height: 100%;
+    }
+
+    .about-me {
+        width: 100%;
+    }
+
+    .projects {
+        width: 100%;
+    }
+   
+    .project-card {
+        width: 31em;
+        margin: 2em;
+    }
+
+    .projects-cards-wrapper {
+        width: 4rem;
+    }
+
+}
+
 @media(max-width: 320px) {
     .sidebar {
         height: 115%;
