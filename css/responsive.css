@@ -103,12 +103,20 @@
 
 @media(max-width: 500px) {
     .sidebar {
-        height: 100%;
+        height: 115%;
+    }
+
+    .hamburger {
+        top: 10em;
     }
 
     .navigation-heading {
         font-size: 2rem;
         margin-top: 3rem;
+    }
+
+    .year {
+        margin: 2.5em;
     }
 
     .banner {
@@ -163,6 +171,16 @@
         width: 12rem;
     }
 
+    .projects {
+        width: 100%;
+        height: 115%;
+    }
+
+    .project-card {
+        width: 30rem;
+        margin: 2rem;
+    }
+
     .project-card-heading {
         font-size: 1.5rem;
     }
@@ -182,7 +200,7 @@
     }
 
     .projects-cards-wrapper {
-        width: 5rem;
+        width: 3em;
     }
 
 }
@@ -190,12 +208,16 @@
 
 @media(max-width: 375px) {
     .sidebar {
-        height: 110%;
-        width: 10em;
+        height: 115%;
+        width: 8em;
     }
 
     .hamburger {
         top: 10em;
+    }
+
+    .year {
+        margin: 2.5em;
     }
 
     .navigation-heading {
@@ -244,7 +266,7 @@
     }
 
     .main-part {
-        width: 110%;
+        width: 115%;
     }
 }
 
@@ -343,9 +365,13 @@
     }
 
     .nav-toggle, 
-    .social-icons-list,
-    .year {
+    .social-icons-list {
         margin-left: 2rem;
+    }
+
+    .year {
+        font-size: 1.5rem;
+        margin: 1rem;
     }
 
 
