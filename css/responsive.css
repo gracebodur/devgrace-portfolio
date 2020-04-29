@@ -200,7 +200,6 @@
 
 }
 
-/* Pixel 2 ans 2XL portrait */
 @media (max-width: 425px) 
 and (max-height: 823px) {
     .hamburger {
@@ -270,5 +269,71 @@ and (max-height: 823px) {
         font-size: 1.5rem;
     }
 
+    }
+}
+
+@media (max-width: 375px) 
+and (max-height: 812px) {
+   .banner {
+       text-align: center;
+   }
+
+   .banner-heading {
+       text-align: center;
+       padding-left: 10px;
+   }
+
+   .banner-paragraph {
+       font-size: 24px;
+       text-align: center;
+       padding-left: 10px;
+   }
+
+   .sub-heading {
+    padding-left: 10px;
+   }
+
+    .project-card {
+        width: 28rem;
+        margin-left: 8rem;
+    }
+
+    .creator-part {
+        margin-left: 50px;
+    }
+
+    .copyright-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) 
+and (max-height: 823px) {
+   .banner {
+       text-align: center;
+   }
+
+   .banner-heading {
+       text-align: center;
+       padding-left: 10px;
+   }
+
+   .banner-paragraph {
+       font-size: 24px;
+       text-align: center;
+       padding-left: 10px;
+   }
+
+    .project-card {
+        width: 28rem;
+        margin-left: 8rem;
+    }
+
+    .creator-part {
+        margin-left: 50px;
+    }
+
+    .copyright-text {
+        text-align: center;
     }
 }
