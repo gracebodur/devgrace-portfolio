@@ -459,11 +459,11 @@ and (max-height: 740px) {
     }
 
     .banner-heading {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .banner-paragraph {
-        font-size: 18px;
+        font-size: 1.75rem;
     }
 
     .banner-button {
