@@ -270,10 +270,10 @@ body {
 
 .banner-button {
     background-repeat: no-repeat;
-    background-color: #1CBDC5;
-    border: 2px solid #1CBDC5;
+    background-color: #ffde11;
+    border-color: #ffde11;
     border-radius: 0;
-    color:#303030;
+    color: #0e1630;
     cursor: pointer;
     font-size: 2rem;
     font-weight: 500;
@@ -294,9 +294,9 @@ a {
 }
 
 .banner-button:hover {
-    color: #303030;
-    background-color:#F5E1A1;
-    border-color: #F5E1A1;
+    color: #0e1630;
+    background-color:#CEB100;
+    border-color: #CEB100;
 }
 
 @keyframes anim {
