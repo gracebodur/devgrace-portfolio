@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    color: #303030;
+    /* color: #303030; */
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -19,12 +19,6 @@ body {
     width: 8rem;
     height: 100%;
     background-color: #0E1630;
-    background-blend-mode: multiply;
-    background-image: url(../img/hero.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -84,13 +78,7 @@ body {
 /* navigation */
 .navigation {
     position: fixed;
-    background-color: rgb(82, 75, 52);
-    background-blend-mode: multiply;
-    background-image: url(../img/hero.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #0E1630;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -107,10 +95,11 @@ body {
 .navigation-heading {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3.5rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: .2rem;
-    color:  #16e0bd;
+    color:  #fff;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .navigation-list {
@@ -129,9 +118,9 @@ body {
 }
 
 .navigation-link {
-    color: #fff;
+    color: #E43D24;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 800;
     letter-spacing: .1rem;
     text-transform: uppercase;
     text-decoration: none;
@@ -142,7 +131,7 @@ body {
     content: "";
     width: 0rem;
     height: .1rem;
-    background-color:  #16e0bd;
+    background-color:  #FFDE11;
     position: absolute;
     top: 1rem;
     left: -4rem;
@@ -153,7 +142,7 @@ body {
     content: "";
     width: 0rem;
     height: .1rem;
-    background-color:  #16e0bd;
+    background-color:  #FFDE11;
     position: absolute;
     top: 1rem;
     right: -4rem;
@@ -161,7 +150,7 @@ body {
 }
 
 .navigation-link:hover {
-    color:  #16e0bd;
+    color:  #FFDE11;
 }
 
 .navigation-link:hover::before,
@@ -238,11 +227,7 @@ body {
 .header {
     margin-left: 8rem;
     height: 100vh;
-    background-image: url(../img/hero.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #3D4987;
 }
 
 .banner {
@@ -259,21 +244,23 @@ body {
     font-weight: 400;
     margin-bottom: 0;
     animation: anim 2s;
+    color: #fff;
 }
 
 .banner-paragraph {
     font-size: 3.5rem;
     font-weight: 300;
     animation: anim 1.5s .5s backwards;
+    color: #fff;
 }
 
 
 .banner-button {
     background-repeat: no-repeat;
-    background-color: #ffde11;
-    border-color: #ffde11;
+    background-color: #E43D24;
+    border-color: #E43D24;
     border-radius: 0;
-    color: #0e1630;
+    color: #fff;
     cursor: pointer;
     font-size: 2rem;
     font-weight: 500;
@@ -295,8 +282,8 @@ a {
 
 .banner-button:hover {
     color: #0e1630;
-    background-color:#CEB100;
-    border-color: #CEB100;
+    background-color:#c3321c;
+    border-color: #c3321c;
 }
 
 @keyframes anim {
@@ -313,13 +300,7 @@ a {
 .about-me {
     margin-left: 8rem;
     display: flex;
-    background-image: url(../img/hero.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: rgb(24, 22, 14);
-    background-blend-mode: multiply;
+    background-color: #0E1630;
     color:  #fff;
 }
 
@@ -337,16 +318,16 @@ a {
 .about-me-heading {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
-    color: #16e0bd;
+    color: #E43D24;
 }
 
 .sub-heading {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: .1rem;
-    color: #16e0bd;
+    color: #FFDE11;
     text-transform: uppercase;
 }
 
@@ -355,6 +336,7 @@ a {
     font-style: italic;
     font-weight: 300;
     /* letter-spacing: .1rem; */
+    line-height: 1.45;
     margin-bottom: 5rem;
     text-align: justify;
 }
@@ -386,26 +368,23 @@ a {
 
 /* project header */
 .project-header {
-    background-image: url(../img/hero.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     padding: 5rem;
     text-align: center;
 }
 
 .project-heading {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 7rem;
-    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 500;
     margin-bottom: 0;
     animation: anim 2s;
+    color: #E43D24;
 }
 
 .small-underline, 
 .big-underline {
-    background-color:#16e0bd;
+    background-color:#FFDE11;
     height: .1rem;
 }
 
@@ -423,11 +402,7 @@ a {
 /* projects */
 .projects {
     margin-left: 8rem;
-    background-image: url(../img/hero.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #3D4987;
 }
 
 .projects-cards-wrapper {
@@ -439,13 +414,7 @@ a {
 .project-card {
     width: 60rem;
     margin: 5rem;
-    background-color: rgb(24, 22, 14);
-    background-blend-mode: multiply;
-    background-image: url(../img/hero.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #0E1630;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .4);
     border-radius: .5rem;
     border: .2rem;
@@ -469,6 +438,7 @@ a {
 .project-card-content {
     color: #ddd;
     padding: 2rem;
+    text-align: justify;
 }
 
 .project-card-heading {
@@ -479,12 +449,13 @@ a {
 
 .project-card-paragraph {
     font-size: 1.5rem;
+    line-height: 1.5;
     color:  #ddd;
 }
 
 a.project-card-btn {
     padding: 0.35em 1.2em;
-    border: 0.16em solid #0baa8f;
+    border: 0.16em solid #ffde11;
     margin: 0 0.3em 0.3em 0;
     border-radius: .8em;
     text-decoration: none;
@@ -492,8 +463,8 @@ a.project-card-btn {
     text-align:center; 
     font-weight: 600;
     font-size: 1.2rem;
-    background-color:  #16e0bd;
-    color:#303030;
+    background-color:  #ffde11;
+    color:#0E1630;
     letter-spacing: 1px;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -501,11 +472,10 @@ a.project-card-btn {
 }
 
 a.project-card-btn:hover {
-    color: #303030;
     opacity: 1;
     font-weight: 800;
-    background-color:  #fff;
-    border: 0.16em solid #fff;
+    background-color:  #ffde11;
+    border: 0.16em solid #ffde11;
 } 
 
 .proj-icons {
@@ -542,7 +512,7 @@ a.project-card-btn:hover {
 .tech {
     font-size: 2.5rem;
     height: 5rem;
-    color: #16e0bd;
+    color: #E43D24;
     transition: color .3s;
     text-decoration: none;
     list-style: none;
@@ -559,13 +529,7 @@ a.project-card-btn:hover {
 .main-part {
     display: flex;
     justify-content: space-between;
-    background-image: url(../img/hero.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: rgb(82, 75, 52);
-    background-blend-mode: multiply;
+    background-color: #0E1630;
     padding: 1rem;
 }
 
@@ -578,22 +542,22 @@ a.project-card-btn:hover {
 
 .copyright-text {
     font-size: 1.3rem;
-    color: #16e0bd;
+    color: #E43D24;
 }
 
 .text-right {
     font-size: 1.4rem;
-    color: #16e0bd;
+    color:#E43D24;
 }
 
 .text-right i {
     font-size: 2rem;
     margin: .5rem;
-    color: rgb(221, 56, 27);
+    color:#FFDE11;
 } 
 
 .text-right span {
-    color: #16e0bd;
+    color:#E43D24;
 }
 /* end of footer */
 
